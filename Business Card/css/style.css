@@ -1,0 +1,48 @@
+body {
+    background-color: powderblue;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+#card-container {
+    width: 400px;
+    height: 200px;
+    background-color: lightskyblue;
+    display: flex;
+    background-image: url(/images/backgroundimage.jpg);
+    background-size: cover;
+    filter: drop-shadow(0 0 10px black);
+}
+
+#picture-panel {
+    width: 140px;
+    height: 200px;
+    /* background-color: rgb(216, 144, 168); */
+    align-content: center;
+    margin-left: 30px;
+}
+
+#info-panel {
+    width: 260px;
+    height: 200px;
+    /* background-color: rgb(255, 215, 221); */
+}
+
+#mugshot {
+    width: 100px;
+    height: 150px;
+    object-fit: cover;
+}
+#text-panel{
+    width: 260px;
+    height: 200px;
+    align-content: center;
+    margin-left: 30px;
+}
+h4{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: midnightblue;
+}
